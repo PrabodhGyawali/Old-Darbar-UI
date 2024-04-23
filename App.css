@@ -1,0 +1,51 @@
+﻿
+
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background: #F2F2F2;
+}
+
+tr:nth-child(odd) {
+    background: #FFF;
+}
+
+th, td {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+/* Colors  */
+.warm {
+    color: #1e83f8;
+}
+
+/* Raw CSS for Cards */
+.Card {
+    font-family: "Noto Sans Old Persian", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    width: 200px;
+    height: fit-content;
+}
+.inline {
+    display: inline-block;
+    margin: 0.5rem;
+    word-wrap: break-word;
+}
+.veg {
+    transform: scale(0.5);
+}
+
+.Menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Search Bar Code */
